@@ -1,0 +1,195 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background: url(/images/redbusbg.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    padding-top: 80px;
+}
+.navbar{
+    background-image: rgba(201, 201, 201, 0.877);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    width: 20%;
+}
+.nav1, .nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav1 a,
+.nav2 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(46, 46, 46, 0.644);
+}
+.navimg1{
+    height: 50px;
+    margin-left: 100px;
+}
+.nav1 img{
+    width: 23px;
+    height: 23px;
+}
+.nav2 img{
+    width: 20px;
+    height: 20px;
+}
+.body{
+    width: 100%;
+    height: 400px;
+    
+}
+.body p{
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px  black;
+}
+.srch{
+    width: 60%;
+    height: 90px;
+    margin-left: 19%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 20px;
+    margin-top: 90px;
+}
+.srch img{
+    border-radius: 30px;
+    width: 100%;
+    height: 92px;
+}
+table,th,td{
+    height: 40px;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+}
+article{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:27%;
+}
+.div3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 0px;
+    background-image: url(/images/divbg.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    margin-top: 9px;
+}
+td{
+    padding-left: 20px;
+}
+table{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.a{
+    background-color: rgba(255, 71, 71, 0.747);
+    font-size: 18px;
+}
+.b{
+    background-color: rgba(255, 55, 55, 0.384);
+}
+.c{
+    background-color: rgba(216, 201, 64, 0.705);
+}
+.div4{
+    width: 100%;
+    height: 500px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    background: url(/images/1.png);
+}
+.form{
+    height: 350px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.11);
+    width: 22%;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h4
+{
+    background-color: rgb(255, 94, 0);
+    height: 50px;
+    color: white;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.349);
+    width: 297px;
+    margin-top: -26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px 9px 0px 0px;
+}
+input{
+    height: 39px;
+    width: 88%;
+    margin-top: 10px;
+    border: 1px solid rgba(51, 51, 51, 0.603);
+    border-radius: 6px;
+}
+select{
+    height: 42px;
+    width: 90%;
+    border: 1px solid rgba(51, 51, 51, 0.604);
+    border-radius: 6px;
+}
+::placeholder{
+    opacity: 0.6;
+}
+
+.footer{
+    height: 150px;
+    margin-top: 9px;
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(163, 52, 0),rgb(83, 0, 0));
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.bp{
+    font-size: medium;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+}
+.line{
+    width: 1px;
+    height: 170px;
+    background-color: white;
+}
